@@ -20,7 +20,6 @@ records. This application is meant for use in a single store..
 - Store attendants should be able to add products to specific categories.
 ```
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
 
