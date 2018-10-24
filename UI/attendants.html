@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Store Manager - Sales</title>
-<link rel="stylesheet" type="text/css" href="./../static/css/style.css">
+<title>Store Manager - Categories</title>
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 
 <body>
@@ -35,11 +35,11 @@
 	    			</li>
 
 	    			<li>
-	    				<a class="selected" href="sales.html">Sales</a>
+	    				<a href="sales.html">Sales</a>
 	    			</li>
 
 	    			<li>
-	    				<a href="attendants.html">Attendants</a>
+	    				<a class="selected" href="attendants.html">Attendants</a>
 	    			</li>
 	    		</ul>
 	    	</div>
@@ -52,62 +52,66 @@
     	<div class="container">
 	    	<div class="card products">
 	    		<div class="card-title">
-		    		<h3>Sales</h3>
+		    		<h3>Attendants</h3>
 		    	</div>
 
 		    	<div class="card-content">
 		    		<div class="card-content-buttons">
-		    			<div class="side-3 pull-left">
-		    				<label>Filter sales by attendant: </label>
-		    			</div>
-		    			<div class="side-3 pull-left">
+		    			<div class="side-6 pull-left">
+			    			<a href="add-attendant.html" class="btn">Add attendant</a>
+			    			<div class="clear space-mobile"></div>
+			    		</div>
+		    			<div class="side-6 pull-right">
 		    				<div class="input-control">
-			    				<select name="" class="input">
-			    					<option>Select attendant</option>
-			    					<option>Diana Nakiwala</option>
-			    				</select>
+			    				<input type="text" name="search" class="input" placeholder="Search attendant">
 			    			</div>
-		    			</div>
-		    			
-		    			<div class="side-3 pull-left">
-		    				<button class="btn no-margin">Go</button>
 		    			</div>
 		    		</div>
 		    		<table class="table-striped">
 		    			<thead>
-		    				<th>Product</th>
-		    				<th>Quantity sold</th>
-		    				<th>Amount (UGX)</th>
-		    				<th>Date</th>
+		    				<th>Name</th>
+		    				<th>Email</th>
+		    				<th>Phone</th>
+		    				<th>Address</th>
+		    				<th>Status</th>
+		    				<th>Action</th>
 		    			</thead>
 
 		    			<tbody>
 		    				<tr>
-		    					<td>Rice</td>
-		    					<td>20</td>
-		    					<td>4,000.00</td>
-		    					<td>2018-10-10</td>
+		    					<td>Diana Nakiwala</td>
+		    					<td>dianakiznaki@gmail.com</td>
+		    					<td>0700 687 656</td>
+		    					<td>Kampala</td>
+		    					<td>Active</td>
+		    					<td><a href="#">make admin</a></td>
 		    				</tr>
 
 		    				<tr>
-		    					<td>Posho</td>
-		    					<td>18</td>
-		    					<td>6,000.00</td>
-		    					<td>2018-10-02</td>
+		    					<td>Diana Nakiwala</td>
+		    					<td>dianakiznaki@gmail.com</td>
+		    					<td>0700 687 656</td>
+		    					<td>Kampala</td>
+		    					<td>Active</td>
+		    					<td><a href="#">make admin</a></td>
 		    				</tr>
 
 		    				<tr>
-		    					<td>Beans</td>
-		    					<td>50</td>
-		    					<td>30,000.00</td>
-		    					<td>2018-10-10</td>
+		    					<td>Diana Nakiwala</td>
+		    					<td>dianakiznaki@gmail.com</td>
+		    					<td>700 687 656</td>
+		    					<td>Kampala</td>
+		    					<td>Active</td>
+		    					<td><a href="#">make admin</a></td>
 		    				</tr>
 
 		    				<tr>
-		    					<td>Sugar</td>
-		    					<td>30</td>
-		    					<td>45,000.00</td>
-		    					<td>2018-10-12</td>
+		    					<td>Diana Nakiwala</td>
+		    					<td>dianakiznaki@gmail.com</td>
+		    					<td>0700 687 656</td>
+		    					<td>Kampala</td>
+		    					<td>Active</td>
+		    					<td><a href="#">make admin</a></td>
 		    				</tr>
 		    			</tbody>
 		    		</table>
