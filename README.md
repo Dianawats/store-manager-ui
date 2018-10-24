@@ -2,7 +2,11 @@
 
 ### Project Overview
 Store Manager is a web application that helps store owners manage sales and product inventory
-records. This application is meant for use in a single store..
+records. This application is meant for use in a single store.
+
+This app is hosted at:
+- [gh-pages](https://https://dianawats.github.io/store-manager-ui/index.html)
+
 
 ### Required Features
 ```
@@ -33,10 +37,6 @@ You will need the following:
 **User Interface:** 
 The UI folder houses the user interface. To access the user interface, open the login.html or index.html
 file inside the UI/templates folder
-
-Here is my link to the UI final branch:
-(git clone: )
-
 
 ## Author
 
