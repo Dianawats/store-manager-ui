@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Store Manager - Add category</title>
+<title>Store Manager - Products</title>
 <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 
@@ -14,11 +14,8 @@
 	    			<h3>Store Manager</h3>
 	    		</div>
     			<div class="account">
-    				<!-- <div class="profile-pic">
-    					<img src="../../static/images/profile.png">
-    				</div> -->
     				<label class="pull-left margin-right-16">Diana Nakiwala</label>
-    				<label class="pull-left"><a href="../login.html">Logout</a></label>
+    				<label class="pull-left"><a href="login.html">Logout</a></label>
     			</div>
     			<div class="clear"></div>
     		</div>
@@ -27,22 +24,18 @@
     		<div class="container">
 	    		<ul>
 	    			<li>
-	    				<a href="index.html">Home</a>
+	    				<a href="admin-index.html">Home</a>
 	    			</li>
 	    			<li>
-	    				<a href="products.html">Products</a>
-	    			</li>
-
-	    			<li>
-	    				<a class="selected" href="categories.html">Categories</a>
+	    				<a href="admin-products.html">Products</a>
 	    			</li>
 
 	    			<li>
-	    				<a href="sales.html">Sales</a>
+	    				<a href="admin-sales.html">Sales</a>
 	    			</li>
 
 	    			<li>
-	    				<a href="attendants.html">Attendants</a>
+	    				<a class="selected" href="admin-attendants.html">Attendants</a>
 	    			</li>
 	    		</ul>
 	    	</div>
@@ -55,23 +48,28 @@
     	<div class="container">
 	    	<div class="card products">
 	    		<div class="card-title">
-		    		<h3>Add category</h3>
+		    		<h3>Add an attendant</h3>
 		    	</div>
 
 		    	<div class="card-content">
 		    		<form action="index.html" method="post">
 			        	<div class="input-control">
 			        		<label for="name">Name</label>
-			        		<input type="text" name="name" id="name" required class="input" placeholder="Enter product name">
+			        		<input type="text" name="name" id="name" required class="input" placeholder="Enter name">
 			        	</div>
 
 			        	<div class="input-control">
-			        		<label for="desc">Description</label>
-			        		<textarea name="desc" id="desc" required class="input" placeholder="Enter description"></textarea>
+			        		<label for="phone">Phone</label>
+			        		<input type="text" name="phone" id="phone" required class="input" placeholder="Enter phone">
+			        	</div>
+
+			        	<div class="input-control">
+			        		<label for="address">Address</label>
+			        		<input type="text" name="address" id="address" required class="input" placeholder="Enter address">
 			        	</div>
 
 			        	<button type="submit" name="add" class="btn">Save</button> 
-			        	<a href="categories.html" class="btn btn-red">Cancel</a> 
+			        	<a href="admin-attendants.html" class="btn btn-red">Cancel</a> 
 			        </form>
 		    	</div>
 	    	</div>
