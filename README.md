@@ -5,7 +5,7 @@ Store Manager is a web application that helps store owners manage sales and prod
 records. This application is meant for use in a single store.
 
 ### This app is hosted at:
-[You can view my page](https://https://dianawats.github.io/store-manager-ui)
+[You can view my page](https://dianawats.github.io/store-manager-ui/UI/index.html)
 
 ### Required Features
 ```
